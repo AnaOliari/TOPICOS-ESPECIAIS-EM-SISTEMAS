@@ -1,3 +1,7 @@
-GET http://localhost:5090/api/produto
+###Listagem de produtos 
+GET http://localhost:5090/api/produto/listar
+###Cadastro de produtos
+POST http://localhost:5090/api/produto/cadastrar
+###Buscar produto
+GET http://localhost:5090/api/produto/buscar/Celular
 
-GET http://localhost:5090/api/produto
